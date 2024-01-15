@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="mediaqueries.css" />
     </head>
     <body>
+        
         <nav id="desktop-nav">
             <div class="logo">Boyan Kachamachkov</div>
             <div>
@@ -34,6 +35,8 @@
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
         </nav>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#about'">
+
         <section id="profile">
             <div class="section__pic-container">
                 <img src="./assets/profile-pic.jpg" alt="Boyan Kachamachkov profile picture" class="profile-pic">
@@ -41,14 +44,14 @@
             <div class="section__text">
                 <p class="section__text__p1">Hello I'm</p>
                 <h1 class="title">Boyan Kachamachkov</h1>
-                <p class="section__text__p2">FrontEnd Developer</p>
+                <p class="section__text__p2">Jr. FrontEnd Developer</p>
                 <div class="btn-container">
                     <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
 
                     <button class="btn btn-color-1" onclick="location.href('.#contact')">Contact Info</button>
                 </div>
                 <div id="socials-container">
-                    <img src="assets/linkedin.png" alt="My LinkedIn profile" class="icon" onClick="location.href='https://www.linkedin.com/in/boyan-kachamachkov/'">
+                    <img src="assets/linkedin.png" alt="My LinkedIn profile" class="icon" onClick="location.href='https://www.linkedin.com/in/kachamachkov/'">
                     <img src="assets/github.png" alt="My GitHub profile" class="icon" onClick="location.href='https://github.com/kachamachkov'">
                 </div>
             </div>
@@ -65,7 +68,7 @@
                         <div class="details-container">
                             <img src="assets/experience.png" alt="experience icon" class="icon">
                             <h3>Experience</h3>
-                            <p>10+ months <br>Frontend Development</p>
+                            <p>10+ months in<br>Frontend Development</p>
                         </div>
                         <div class="details-container">
                             <img src="assets/education.png" alt="education icon" class="icon">
@@ -110,11 +113,7 @@
                                 <h3>JavaScript</h3>
                                 <p>3/5</p>
                             </article>
-                            <article>
-                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
-                                <h3>React</h3>
-                                <p>0/5</p>
-                            </article>
+                     
                             
                             
                         </div>
@@ -122,21 +121,13 @@
                     <div class="details-container">
                         <h2 class="experience-sub-title">Backend Development</h2>
                         <div class="article-container">
-                            <article>
-                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
-                                <h3>PostgreSQL</h3>
-                                <p>0/5</p>
-                            </article>
+                            
                             <article>
                                 <img src="assets/checkmark.png" alt="Experience icon" class="icon">
                                 <h3>Node JS</h3>
                                 <p>3/5</p>
                             </article>
-                            <article>
-                                <img src="assets/checkmark.png" alt="Experience icon" class="icon">
-                                <h3>Express JS</h3>
-                                <p>0/5</p>
-                            </article>
+                            
                             <article>
                                 <img src="assets/checkmark.png" alt="Experience icon" class="icon">
                                 <h3>Git & GitHub</h3>
@@ -147,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
         </section>
         <section id="projects">
             <p class="section__text__p1">Browse My Recent</p>
@@ -160,12 +151,12 @@
                         " alt="project 1" class="project-img">
                     </div>
 
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Weather App</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                            GitHub
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kachamachkov/Weather-App'">
+                            Code
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://kachamachkov.github.io/Weather-App/'">
                             Live Demo
                         </button>
                     </div>
@@ -176,36 +167,21 @@
                         " alt="project 2" class="project-img">
                     </div>
 
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">To-Do App</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                            GitHub
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/kachamachkov/To-Do-App'">
+                            Code
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://kachamachkov.github.io/To-Do-App/'">
                             Live Demo
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
-                    <div class="article-container">
-                        <img src="assets/project-3.png
-                        " alt="project 3" class="project-img">
-                    </div>
 
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                            GitHub
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div></div>
                 
                 
             </div>
-            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'">
         </section>
         <section id="contact">
             <p class="section__text__p1">Get in Touch</p>
@@ -217,7 +193,7 @@
                 </div>
                 <div class="contact-info-container">
                     <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
-                    <p><a href="https://www.linkedin.com/in/boyan-kachamachkov/">
+                    <p><a href="https://www.linkedin.com/in/kachamachkov/">
                         LinkedIn
                     </a></p>
                 </div>
